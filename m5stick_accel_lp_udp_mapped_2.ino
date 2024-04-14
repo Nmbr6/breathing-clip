@@ -18,7 +18,7 @@ const bool OFF=HIGH;
 const bool ON=LOW;
 bool STREAM_EN = false;
 bool LED_STATE = ON;
-int streamPrint = true;
+int streamPrint = false;
 
 /* Enter patient ID# here */
 const int patient_id = 2308;

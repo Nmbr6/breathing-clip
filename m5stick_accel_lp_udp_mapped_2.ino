@@ -1,13 +1,12 @@
-/*  Proof-of-concept code for Reichmann University Respiration Sensor
- *  Shreyas Renganathan, 9/27/2023
- *  This sketch is written for the M5StickCPlus.
- *  This sketch continuously reads the onboard IMU (MPU6886), bandpass-filters the data, and streams it over a WiFi network via UDP broadcast
- *  Output data rate is ~400Hz in empirical testing.
- *  New signal processing algorithm maps the output breathing signal b(t) to -1000<b(t)<1000
- *  This is achieved by bandpass filtering the signal to remove noise, then clipping it to a preset range narrower than the observed range
- *  This clipped sinewave is then lowpass filtered again to reconstruct a sinusoidal signal. 
- *  Notes:
- *  - In /utility/MPU6886.h, set maximum resolution by editing line 66 to: Ascale Acscale = AFS_2G;
+/*  Proof-of-concept code for Breathing Clip sensor
+ *  Shreyas Renganathan, 4/14/2024
+ *  This sketch is written for the M5StickCPlus2.
+ *  This sketch continuously reads the onboard IMU (MPU6886), filters the data, and streams it over a WiFi network via UDP broadcast
+ *  Output data rate is ~400Hz in empirical testing, but will vary based on network speed/bandwidth and number of devices on the network.
+ *  Signal processing algorithm maps the breathing signal output b(t) to -1000<b(t)<1000. The intent is that this can be divided by 1000.0 on the receiver side to obtain a float value -1.0<B(t)<1.0.
+ *  This algorithm works by variously filtering the signal to remove noise, then clipping it to a preset range that is known to be narrower than the observed range.
+ *  This clipped sinewave is then lowpass filtered again to reconstruct a sinusoidal signal. This makes the signal appear as a sinusoidal signal with amplitude*2 equal to the preset range.
+ *  NOTE: Follow all setup instructions in Readme.txt first
  */
 #include "M5StickCPlus2.h"
 #include "WiFi.h"
@@ -24,9 +23,8 @@ int streamPrint = false;
 const int patient_id = 2308;
 
 /* Set WiFi credentials here */
-//Only 2.4GHz networks supported
-const char* ssid = "wifi_network_name";
-const char* password = "wifi_network_password";
+const char* ssid = "SJMnetwork2.4";
+const char* password = "Muddy0607";
 
 /* Enter device IP address and port here*/
 //IP address doesn't really matter, it's just a placeholder to start the connection

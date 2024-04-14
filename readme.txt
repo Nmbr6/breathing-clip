@@ -29,9 +29,9 @@ Open MPU6886_Class.cpp, then edit Line 61 to match this: setAccelFsr(Ascale::AFS
 This adjusts the full-scale range of IMU data to its highest resolution (+/- 2G)
 
 
-==============
+====================
 Before Sketch Upload
-==============
+====================
 Edit Patient ID: set unique alphanumeric ID per unit (Line 24)
 Edit WiFi credentials (Lines 27-28)
 

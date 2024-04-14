@@ -24,8 +24,9 @@ int streamPrint = false;
 const int patient_id = 2308;
 
 /* Set WiFi credentials here */
-const char* ssid = "SJMnetwork2.4";
-const char* password = "Muddy0607";
+//Only 2.4GHz networks supported
+const char* ssid = "wifi_network_name";
+const char* password = "wifi_network_password";
 
 /* Enter device IP address and port here*/
 //IP address doesn't really matter, it's just a placeholder to start the connection

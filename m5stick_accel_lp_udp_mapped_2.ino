@@ -12,7 +12,8 @@
 #include "WiFi.h"
 #include "AsyncUDP.h"
 
-const int LED_PIN=19; //changed from 10 in M5StickCPlus
+/* INITIALIZATIONS */
+const int LED_PIN=19;
 const bool OFF=HIGH;
 const bool ON=LOW;
 bool STREAM_EN = false;
@@ -34,7 +35,7 @@ const int ipAddress[4] = {192,168,1,100};
 const int port = 1234;
 
 float accX, accY, accZ;
-//float gyrX, gyrY, gyrZ;
+//float gyrX, gyrY, gyrZ; //for angular rate measurements
 
 float filt_sig = 0.0;
 float dc_sig = 0.0;
@@ -155,9 +156,10 @@ LowPass<2> rc_lp(0.7,1000,true);
 
 //Instantiate UDP
 AsyncUDP udp;
-      
+
+/* SETUP */      
 void setup() {
-  //Set GPIO4 to HIGH upon bootup as recommened by M5StickCPlus2 doc
+  //Set GPIO4 to HIGH upon bootup as recommenDed by M5StickCPlus2 documentation
   pinMode(4,OUTPUT);
   digitalWrite(4,HIGH);
   //Turn off display backlight
@@ -196,6 +198,8 @@ void setup() {
   //Need to have this so M5Stack doesn't complain about LED not being initialized
   ledcSetup(0,0,12);
 }
+
+/* LOOP */
 void loop() {
   //Check for new button presses using M5Stack
   StickCP2.update();

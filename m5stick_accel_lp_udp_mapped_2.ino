@@ -5,7 +5,7 @@
  *  Output data rate is ~400Hz in empirical testing, but will vary based on network speed/bandwidth and number of devices on the network.
  *  Signal processing algorithm maps the breathing signal output b(t) to -1000<b(t)<1000. The intent is that this can be divided by 1000.0 on the receiver side to obtain a float value -1.0<B(t)<1.0.
  *  This algorithm works by variously filtering the signal to remove noise, then clipping it to a preset range that is known to be narrower than the observed range.
- *  This clipped sinewave is then lowpass filtered again to reconstruct a sinusoidal signal. This makes the signal appear as a sinusoidal signal with amplitude*2 equal to the preset range.
+ *  This clipped sinewave is then lowpass filtered again to reconstruct a sinusoidal signal. The reconstructed signal is therefore effectively mapped to the preset range.
  *  NOTE: Follow all setup instructions in Readme.txt first
  */
 #include "M5StickCPlus2.h"

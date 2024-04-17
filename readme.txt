@@ -18,9 +18,7 @@ Update:
 - M5Stack (v2.0.7)
 
 |Drivers|
-The UART chip has changed going from M5StickCPlus to M5StickCPlus2.
-So a new driver needs to be installed for a host computer to receive Serial data from the unit.
-Install CH9102 driver here: https://docs.m5stack.com/en/core/M5StickC%20PLUS2 ('Driver Installation')
+Install CH9102 UART driver here: https://docs.m5stack.com/en/core/M5StickC%20PLUS2 ('Driver Installation')
 Choose appropriate installer for Windows or MacOS
 
 |Header Files|

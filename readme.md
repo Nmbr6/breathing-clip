@@ -54,8 +54,7 @@ Choose appropriate installer for Windows or MacOS.
 - In your Arduino libraries folder, navigate to <...\Arduino\libraries\M5Unified\src\utility\imu>
 Open MPU6886_Class.cpp, then edit Line 61 to match this: setAccelFsr(Ascale::AFS_2G);
 This adjusts the full-scale range of IMU data to its highest resolution (+/- 2G)
-
-To run the code effectively, modify the IMU header file within the M5StickC library to set the resolution to its maximum by editing the `MPU6886.h` file: change line 66 to `Ascale Acscale = AFS_2G;`.
+- To run the code effectively, modify the IMU header file within the M5StickC library to set the resolution to its maximum by editing the `MPU6886.h` file: change line 66 to `Ascale Acscale = AFS_2G;`.
 
 ## Before Sketch Upload
 

@@ -35,21 +35,22 @@ If you use the code or 3D print files included here for your research, please ki
 
 ## First-time Setup
 
-### Arduino Libraries
-Install:
+**Arduino Libraries**
 - M5StickCPlus2 (1.0.1)
 - M5Family (0.1.3)
 - M5Stack (0.4.6)
 - M5Unified (0.1.14)
 
 Accept all dependencies when installing or updating.
-### Arduino Board Manager
-Install:
+
+**Arduino Board Manager**
 - M5Stack (v2.0.7)
-### Drivers
+
+**Drivers**
 Install CH9102 UART driver [here](https://docs.m5stack.com/en/core/M5StickC%20PLUS2) ('Driver Installation').
 Choose appropriate installer for Windows or MacOS.
-### Header Files
+
+**Header Files**
 In your Arduino libraries folder, navigate to <...\Arduino\libraries\M5Unified\src\utility\imu>
 Open MPU6886_Class.cpp, then edit Line 61 to match this: setAccelFsr(Ascale::AFS_2G);
 This adjusts the full-scale range of IMU data to its highest resolution (+/- 2G)

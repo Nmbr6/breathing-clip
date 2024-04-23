@@ -67,7 +67,7 @@ We suggest to methods for mounting - magnetic tape, or a 3D printed clip which c
 ### Magnetic tape
  We used Magnetic tape with adhesive backing, with one segment attached to the device, and one simply placed inside the garment. 
  
- ### 3D printed clip
+### 3D printed clip
 The STL for printing the clip can be found [here](https://github.com/Nmbr6/breathing-clip/blob/main/Sensor%20Clip.STL) in the GIT. We suggest printing it vertically, oriented so that the clip opening is facing up.
 
 <p align="center">

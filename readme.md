@@ -63,7 +63,7 @@ This adjusts the full-scale range of IMU data to its highest resolution (+/- 2G)
 
 ## Mounting
 
-We suggest to methods for mounting - magnetic tape, or a 3D printed clip which can be found in the Git.
+We suggest two methods for mounting - magnetic tape, or a 3D printed clip which can be found in the Git.
 ### Magnetic tape
  We used Magnetic tape with adhesive backing, with one segment attached to the device, and one simply placed inside the garment. 
  

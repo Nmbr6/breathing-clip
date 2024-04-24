@@ -58,8 +58,8 @@ This adjusts the full-scale range of IMU data to its highest resolution (+/- 2G)
 
 ## Before Sketch Upload
 
-Edit Patient ID: set unique alphanumeric ID per unit (Line 24)
-Edit WiFi credentials (Lines 27-28)
+- Edit Patient ID: set unique alphanumeric ID per unit (Line 24)
+- Edit WiFi credentials (Lines 27-28)
 
 ## Mounting
 

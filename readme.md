@@ -19,7 +19,7 @@ If you use the code or 3D print files included here for your research, please ki
 
 - **Wi-Fi Protocol**: 2.4GHz (802.11b/g/n).
 - **UDP Port**: 1234 for data streaming.
-- **Output Data Rate**: 167-333Hz, corresponding to every 3-6ms.
+- **Output Data Rate**: ~500Hz, corresponding to every 2ms.
 - **IP Address**: Assigned dynamically.
 - **Device Identifier**: Incorporates a "patient_id" as an unsigned 4-digit integer.
 - **Packet Type**: 20-byte string format "patient_id,elapsedTime,ac_sig", where:

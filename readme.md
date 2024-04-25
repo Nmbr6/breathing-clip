@@ -5,7 +5,7 @@ This project develops a proof-of-concept real-time respiratory monitoring system
 ## Referencing
 
 If you use the code or 3D print files included here for your research, please kindly cite the relevant papers in your publications. This support is critical for the continued development and maintenance of the software, as well as recognition of the effort by the authors. Relevant publications include:
-* Employing Physiological Sensing for Exteroceptive-Interoceptive Sensory Substitution in NeuroHCI \[[link](https://dl.acm.org/doi/full/10.1145/3544549.3585897)] 
+* Employing Physiological Sensing for Exteroceptive-Interoceptive Sensory Substitution in NeuroHCI \[[link will be available May 2024](https://dl.acm.org/doi/full/10.1145/3544549.3585897)] 
 * Breathing based immersive interactions for enhanced agency and body awareness: a claustrophobia motivated study \[[link](https://dl.acm.org/doi/full/10.1145/3544549.3585897)] 
 ## Platform
 

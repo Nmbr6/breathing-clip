@@ -5,8 +5,11 @@ This project develops a proof-of-concept real-time respiratory monitoring system
 ## Referencing
 
 If you use the code or 3D print files included here for your research, please kindly cite the relevant papers in your publications. This support is critical for the continued development and maintenance of the software, as well as recognition of the effort by the authors. Relevant publications include:
-* Employing Physiological Sensing for Exteroceptive-Interoceptive Sensory Substitution in NeuroHCI \[[link will be available May 2024](https://dl.acm.org/doi/full/10.1145/3544549.3585897)] 
-* Breathing based immersive interactions for enhanced agency and body awareness: a claustrophobia motivated study \[[link](https://dl.acm.org/doi/full/10.1145/3544549.3585897)] 
+* Enriched Embodiment Environments for Healthcare Spaces: Exploration through the Design of a Cancer Treatment Facility \[[link]([https://dl.acm.org/doi/full/10.1145/3544549.3585897](https://doi.org/10.1145/3706599.371973))]
+Other breathing projects:
+* Breathing based immersive interactions for enhanced agency and body awareness: a claustrophobia motivated study \[[link](https://dl.acm.org/doi/full/10.1145/3544549.3585897)]
+* Enhancing interoceptive sensibility through exteroceptive–interoceptive sensory substitution \[[link](https://doi.org/10.1038/s41598-024-63231-4)]
+
 ## Platform
 
 - **Device**: [M5 StickC Plus2](https://docs.m5stack.com/en/core/M5StickC%20PLUS2), built on the ESP32-PICO-V3-02 SoC.

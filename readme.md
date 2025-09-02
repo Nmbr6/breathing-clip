@@ -5,8 +5,9 @@ This project develops a proof-of-concept real-time respiratory monitoring system
 ## Referencing
 
 If you use the code or 3D print files included here for your research, please kindly cite the relevant papers in your publications. This support is critical for the continued development and maintenance of the software, as well as recognition of the effort by the authors. Relevant publications include:
-* Enriched Embodiment Environments for Healthcare Spaces: Exploration through the Design of a Cancer Treatment Facility \[[link]([https://dl.acm.org/doi/full/10.1145/3544549.3585897](https://doi.org/10.1145/3706599.371973))]
-
+* BreathClip: A Wearable Respiration Sensor for Interaction Design \[[link](https://doi.org/10.18420/muc2025-mci-demo-306)]
+* Enriched Embodiment Environments for Healthcare Spaces: Exploration through the Design of a Cancer Treatment Facility \[[link](https://doi.org/10.1145/3706599.3719733)]
+  
 ### Other breathing projects:
 * Breathing based immersive interactions for enhanced agency and body awareness: a claustrophobia motivated study \[[link](https://dl.acm.org/doi/full/10.1145/3544549.3585897)]
 * Enhancing interoceptive sensibility through exteroceptive–interoceptive sensory substitution \[[link](https://doi.org/10.1038/s41598-024-63231-4)]
@@ -85,3 +86,4 @@ For optimal signal capture, the device should be placed over clothing on the cla
 <p align="center">
   <img src="https://raw.githubusercontent.com/Nmbr6/breathing-clip/main/Figures/sensor%201.jpg?token=GHSAT0AAAAAACODQH7HNZP7RFBZG6IX2DH2ZRHVCOA" width="400"/>
 </p>
+

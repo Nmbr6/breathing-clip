@@ -76,7 +76,7 @@ We suggest two methods for mounting - magnetic tape, or a 3D printed clip which 
 The STL for printing the clip can be found [here](https://github.com/Nmbr6/breathing-clip/blob/main/Sensor%20Clip.STL) in the GIT. We suggest printing it vertically, oriented so that the clip opening is facing up.
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Nmbr6/breathing-clip/main/Figures/sensor%202.jpg?token=GHSAT0AAAAAACODQH7HHRZ7BNCIGNU4TO7WZRHVDFQ" width="400"/> 
+   <img src="https://raw.githubusercontent.com/Nmbr6/breathing-clip/main/Figures/sensor%202.jpg" width="400"/> 
 </p>
 
 ## Placement
@@ -84,6 +84,6 @@ The STL for printing the clip can be found [here](https://github.com/Nmbr6/breat
 For optimal signal capture, the device should be placed over clothing on the clavicle, approximately midway between the sternoclavicular and acromioclavicular joints. The M5 StickC Plus2 should be perpendicular to the clavicle, ensuring accurate signal detection.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nmbr6/breathing-clip/main/Figures/sensor%201.jpg?token=GHSAT0AAAAAACODQH7HNZP7RFBZG6IX2DH2ZRHVCOA" width="400"/>
+  <img src="https://raw.githubusercontent.com/Nmbr6/breathing-clip/main/Figures/sensor%201.jpg" width="400"/>
 </p>
 
